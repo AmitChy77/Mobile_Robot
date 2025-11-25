@@ -1,13 +1,13 @@
 A ROS2-based teleoperation robot using a Rover5 2-motor chassis and two Raspberry Pis. A PS4 controller connected to the base station Pi drives the robot and rotates a servo-mounted camera, while the robot Pi streams live video back to the operator. The system uses ROS2 Jazzy, joy, teleop_twist_joy, and custom motor/servo nodes for differential drive control, camera panning, and real-time video streaming over Wi-Fi using ROS_DOMAIN_ID.
 
 **Features:**
-Wireless PS4 joystick control
-Differential drive for Rover5 motors
-Servo-based camera panning (right stick)
-Live USB camera feed via ROS2
-Distributed control with two Raspberry Pis
-ROS2 multi-machine communication over Wi-Fi
-Modular Python nodes for motors, camera, and servo
+1. Wireless PS4 joystick control
+2. Differential drive for Rover5 motors
+3. Servo-based camera panning (right stick)
+4. Live USB camera feed via ROS2
+5. Distributed control with two Raspberry Pis
+6. ROS2 multi-machine communication over Wi-Fi
+7. Modular Python nodes for motors, camera, and servo
 
 **Hardware:**
 1. Rover5 2-motor chassis (no encoders)
